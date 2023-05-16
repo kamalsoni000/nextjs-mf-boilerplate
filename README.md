@@ -1,3 +1,5 @@
+# Microfrontends using Next.js and Module Federation with Tailwind CSS Boilerplate
+
 # Microfrontends using Next.js and Module Federation
 
 Microfrontends allow teams to work independently of each other by splitting the application into smaller, shareable, and modular components. The primary goal for a microfrontend strategy is to improve collaboration across teams of developers.
