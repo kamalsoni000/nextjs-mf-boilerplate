@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import KBlurImage from "../components/common/KBlurImage";
+import Layout from '../components/layout/Layout'
 
 
 
@@ -8,11 +9,13 @@ import KBlurImage from "../components/common/KBlurImage";
 const Home: NextPage = () => {
   
   return (
-    <>
+    <Layout>
 
       <Head>
-        <title>Kamal: Admin</title>
+        <title>Kamal: Home</title>
       </Head>
+      <h1 className="container px-6 py-10 mx-auto">This is Main Page</h1>
+
       <main>
       
         <div className="pt-6 px-4">
@@ -580,7 +583,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </main>
-      </>
+      </Layout>
     
   );
 };

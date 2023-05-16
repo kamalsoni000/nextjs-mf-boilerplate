@@ -1,9 +1,15 @@
 import type { NextPage } from "next";
+import Head from "next/head";
 import React, { useState } from "react";
 
 const About: NextPage = () => {
   
   return (
+    <>
+     <Head>
+        <title>Kamal: About</title>
+      </Head>
+    <h1 className="container px-6 py-10 mx-auto">This is Load from About: localhost:3001</h1>
     <section className="bg-white dark:bg-gray-900">
     <div className="container px-6 py-10 mx-auto">
         <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">explore our <br/> awesome <span className="underline decoration-blue-500">Components</span></h1>
@@ -130,6 +136,7 @@ const About: NextPage = () => {
         </div>
     </div>
 </section>
+</>
   )
 };
 

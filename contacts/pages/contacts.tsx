@@ -1,9 +1,17 @@
 import type { NextPage } from "next";
+import Head from "next/head";
 import React, { useState } from "react";
 
 const Contacts: NextPage = () => {
   
   return (
+    <>
+    
+    <Head>
+        <title>Kamal: Contact</title>
+      </Head>
+      <h1 className="container px-6 py-10 mx-auto">This is Load from Contact: localhost:3002</h1>
+
     <section className="bg-white dark:bg-gray-900">
     <div className="container px-6 py-12 mx-auto">
         <div>
@@ -60,6 +68,7 @@ const Contacts: NextPage = () => {
         </div>
     </div>
 </section>
+</>
   )
 };
 

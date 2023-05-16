@@ -50,10 +50,9 @@ By using separate builds we getting a good build performance for the whole syste
 We have three next.js applications
 
 - `home` - port 3000
-- `blog` - port 3001
+- `about` - port 3001
 - `contacts` - port 3002
 
-The Main Authentication is Done In Home Module by the Help of Middleware.ts in Nextjs and Sub Applications is Load Under Home Module Which As a Main Gateway Of the MicroFrontend 
 
 The applications utilize omnidirectional routing and pages or components are able to be federated between applications like a SPA
 
